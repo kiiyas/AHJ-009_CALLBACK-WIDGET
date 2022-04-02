@@ -1,6 +1,6 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/fjxspyuyon4dwfan?svg=true)](https://ci.appveyor.com/project/kiiyas/ahj-009-liker-widget)
 
-[Ссылка на GitHub-Pages](https://kiiyas.github.io/AHJ-005_LIKER-WIDGET/)
+[Ссылка на GitHub-Pages](https://kiiyas.github.io/AHJ-009_LIKER-WIDGET/)
 
 ТЗ: Реализуйте поведение лайкера. Высота, на которой исчезают лайки - 200px.
 Скорость анимации - 500ms.
