@@ -1,0 +1,159 @@
+* {
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);    
+}
+  
+.liker-container {    
+    width: 300px; 
+    height: 350px;
+    border: 1px dotted rgb(197, 197, 197); 
+    position: relative;
+}
+
+.liker {
+    position: absolute;
+    bottom: 0;
+    z-index: 888;
+    width: 93%;
+}
+
+.liker-btn {
+    padding: 15px 70px;
+    background-color: rgb(255, 119, 119);
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    display: block;
+    width: 100%;
+}
+  
+.heart {
+    width: 40px;
+    height: 40px;
+    background-image: url('../img/heart.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;    
+    z-index: 777;        
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;    
+}
+  
+  @keyframes i {
+    0% {
+      left: 50%;
+      bottom: 50px;
+      opacity: 1;
+    }
+    25% {
+      left: 10%;
+      bottom: 100px;
+      opacity: 1;
+    }
+    50% {
+      left: 50%;
+      bottom: 130px;
+      opacity: 0.75;
+    }
+    75% {
+      left: 80%;
+      bottom: 170px;
+      opacity: 0.5;
+    }
+    100% {
+      left: 50%;
+      bottom: 200px;
+      opacity: 0;
+    }
+  }
+  
+  @keyframes ii {
+    0% {
+      left: 50%;
+      bottom: 50px;
+      opacity: 1;
+    }
+    25% {
+      left: 50%;
+      bottom: 100px;
+      opacity: 1;
+    }
+    50% {
+      left: 90%;
+      bottom: 130px;
+      opacity: 0.75;
+    }
+    75% {
+      left: 30%;
+      bottom: 170px;
+      opacity: 0.5;
+    }
+    100% {
+      left: 50%;
+      bottom: 200px;
+      opacity: 0;
+    }
+  }
+  
+  @keyframes iii {
+    0% {
+      left: 50%;
+      bottom: 50px;
+      opacity: 1;
+    }
+    25% {
+      left: 50%;
+      bottom: 100px;
+      opacity: 0.75;
+    }
+    50% {
+      left: 100%;
+      bottom: 130px;
+      opacity: 0.5;
+    }
+    75% {
+      left: 10%;
+      bottom: 170px;
+      opacity: 0.25;
+    }
+    100% {
+      left: 50%;
+      bottom: 200px;
+      opacity: 0;
+    }
+  }
+  
+  @keyframes iiii {
+    0% {
+      left: 50%;
+      bottom: 30px;
+      opacity: 1;
+    }
+    25% {
+      left: 80%;
+      bottom: 50px;
+      opacity: 0.75;
+    }
+    50% {
+      left: 50%;
+      bottom: 100px;
+      opacity: 0.5;
+    }
+    75% {
+      left: 20%;
+      bottom: 150px;
+      opacity: 0.25;
+    }
+    100% {
+      left: 50%;
+      bottom: 200px;
+      opacity: 0;
+    }
+  }
