@@ -1,6 +1,13 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/ghesh85k9ovca3xg?svg=true)](https://ci.appveyor.com/project/kiiyas/ahj-009-callback-widget)
+[![Build status](https://ci.appveyor.com/api/projects/status/fjxspyuyon4dwfan?svg=true)](https://ci.appveyor.com/project/kiiyas/ahj-009-liker-widget)
 
-[Ссылка на GitHub-Pages](https://kiiyas.github.io/AHJ-005_CALLBACK-WIDGET/)
+[Ссылка на GitHub-Pages](https://kiiyas.github.io/AHJ-005_LIKER-WIDGET/)
 
-ТЗ: сделать виджет обратной связи на портал компании. Ключевое тут в анимации.
-Реализуйте показ и скрытие.
+ТЗ: Реализуйте поведение лайкера. Высота, на которой исчезают лайки - 200px.
+Скорость анимации - 500ms.
+
+Возможные траектории (траектория выбирается рандомно):
+0% - центр, 25% - влево, 50% - центр, 75% - вправо, 100% - центр
+0% - центр, 25% - центр, 50% - вправо, 75% - влево, 100% - центр
+0% - центр, 25% - центр, 50% - влево, 75% - вправо, 100% - центр
+0% - центр, 25% - вправо, 50% - центр, 75% - влево, 100% - центр
+Важно: обратите внимание, что элементы после "исчезания" должны удаляться из DOM. Используйте для этого соответствующие события, а не таймауты.
